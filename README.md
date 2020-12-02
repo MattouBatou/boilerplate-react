@@ -1,2 +1,1 @@
-# mattoubatou-portfolio
-HTML5 Game Portfolio
+# Basic React Boilerplate
