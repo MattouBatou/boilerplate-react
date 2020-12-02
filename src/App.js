@@ -1,7 +1,16 @@
 import React from 'react';
-import GameDashboard from './components/GameDashboard';
-const App = () => <div class="app-container">
-    
-</div>;
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+
+const App = () => {
+    return (
+        <div className="app-container">
+            <Header/>
+            <Main/>
+            <Footer/>
+        </div>
+    )
+};
 
 export default App;

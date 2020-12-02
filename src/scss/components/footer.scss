@@ -1,0 +1,7 @@
+.app-footer {
+    flex: 1;
+    background-color: $color-theme-secondary;
+    color: darken($color-theme-secondary, 30%);
+    padding: 0.5em;
+    font-weight: bold;
+}
