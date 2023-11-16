@@ -1,3 +1,6 @@
+// With webpack (and boilerplates such as create-react-app)
+@use 'mq';
+
 // To enable support for browsers that do not support @media queries,
 // (IE <= 8, Firefox <= 3, Opera <= 9) set $mq-responsive to false
 // Create a separate stylesheet served exclusively to these browsers,
@@ -24,7 +27,4 @@ $mq-static-breakpoint: medium;
 // If you want to display the currently active breakpoint in the top
 // right corner of your site during development, add the breakpoints
 // to this list, ordered by width. For example: (mobile, tablet, desktop).
-// $mq-show-breakpoints: (smallest, extra-small, small, medium, large, extra-large);
-
-// With webpack (and boilerplates such as create-react-app)
-@import '~sass-mq';
+//$mq-show-breakpoints: (smallest, extra-small, small, medium, large, extra-large);
